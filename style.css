@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("opentype"); 
+    font-weight: normal;
+    font-size: normal;
+}
+:root {
+    --cor-clara: #ebe5c5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(0, 129, 0);
+    margin-bottom: 30px;
+    padding: 0px -20px;
+
+}
+
+div.video{
+    background-color: darkgreen;
+    margin-bottom: 10px;
+    margin: 0px -20px 30px -20x;
+    padding: 20px;
+    padding-bottom: 52.3%;
+    position: relative
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+a.externo:after{
+    content: '\00a0\1F517';
+}
+img{
+    width: 100%;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(58, 255, 163), rgb(0, 34, 0));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 0px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header > h1{
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+}
+header > p{
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px black;
+    padding-bottom: 10px;
+}
+nav{
+    background-color:rgb(0, 34, 0);
+    padding: 10px;
+    box-shadow: 0px 4px 7px black;
+}
+nav > a{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover{
+    background-color: rgba(152, 255, 165, 0.459);
+    color: black;
+}
+
+main p{
+    text-indent: 20px;
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong{
+    color: green;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+main a{
+    text-decoration: none;
+    background-color: lightgreen;
+    font-weight: bold;
+    color: darkgreen;
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+main img.img-p{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main{
+    background-color: white;
+    margin:auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    min-width: 300;
+    max-width: 800px;
+    padding: 20px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.521);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.507);
+}
+
+
+article > h1,h2,h3{
+    color: rgb(0, 146, 49);
+    font-family: "idroid";
+}
+
+article > h3{
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.486), transparent);
+}
+
+
+
+main > aside{
+    background-color: rgb(185, 255, 214);
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+h4{
+    background-color: rgb(0, 190, 102);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+main > aside > p{
+    padding: 0px 10px ;
+    margin-bottom:20px ;
+}
+
+aside > ul{
+    list-style-type: '\2714\00a0\00a0';
+
+    list-style-position: inside;
+    columns: 2;
+    padding-left: 10px;
+}
+footer{
+    background-color: green;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+}
+footer > p{
+    margin: 0;
+}
+
